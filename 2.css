@@ -1,0 +1,89 @@
+
+.dropbtn {
+  background-color:rgba(21, 119, 205, 0.347);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2361dd73;
+}
+
+
+  body {
+    background-image: url("../img/托特包.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right: 200px;
+    background-attachment: fixed;
+  }d
+
+.header {
+  
+  position:center;
+ 
+  padding: 8px;
+  text-align: center;
+}
+ul {
+  overflow: hidden;
+  height: 200px;
+  background-color:aliceblueS;
+  float:left;
+}
+.photo img {
+  width:400px;
+  height: 400px;
+  background-color: rgba(240, 248, 255, 0.021);
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  height: 900px;
+  border: 3px solid #213dad43;
+}
+div.fixed img{
+  width:370px;
+   height: 880px;
+}
+.footer {
+  background-color:rgba(255, 228, 225, 0.195);
+  height: 30px;
+  vertical-align: 30px;
+  text-align: center;
+  width: 100%;
+  position:inherits;
+}
